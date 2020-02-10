@@ -1,0 +1,23 @@
+/* color for layout*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: #f34423;
+  height: 95px;
+}
+
+nav {
+  background-color: rgba(204, 204, 228, 0.986);
+  height: 56px;
+}
+
+/* styling header */
+
+.nw-logo {
+  fill: #fff;
+  width: 132px;
+}
