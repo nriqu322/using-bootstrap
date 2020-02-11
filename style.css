@@ -1,23 +1,78 @@
-/* color for layout*/
+/* color for layout */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.container-fluid {
+.nav-top {
   background-color: #f34423;
   height: 95px;
 }
 
-nav {
+.nav-bar {
   background-color: rgba(204, 204, 228, 0.986);
   height: 56px;
 }
 
+#color-blue {
+  background-color: blue;
+  height: 100%;
+}
+
+#color-yellow {
+  background-color: yellow;
+  height: 198px;
+}
+
+.left {
+  background-color: coral;
+  height: 500px;
+}
+
+.middle {
+  background-color: cyan;
+  height: 100%;
+}
+
+.main-article {
+  background-color: rgb(100, 0, 58);
+  height: calc(1200px / 4);
+}
+
+.culture-travel {
+  background-color: #fff;
+  height: calc(1200px / 2);
+}
+
+.more-stories {
+  background-color: darkgray;
+  height: calc(1200px / 4);
+}
+
+.right {
+  background-color: darkgreen;
+  height: 520px;
+}
+
 /* styling header */
+
+.container-fluid,
+.nav-bar {
+  max-width: 1310px;
+}
+
+.main {
+  height: 100%;
+}
 
 .nw-logo {
   fill: #fff;
   width: 132px;
 }
+
+.row {
+  margin: 0;
+}
+
+/* media queries */
