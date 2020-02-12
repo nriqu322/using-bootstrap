@@ -27,7 +27,7 @@
 
 .left {
   background-color: coral;
-  height: 500px;
+  height: 100%;
 }
 
 .middle {
@@ -35,24 +35,15 @@
   height: 100%;
 }
 
-.main-article {
-  background-color: rgb(100, 0, 58);
-  height: calc(1200px / 4);
-}
-
-.culture-travel {
-  background-color: #fff;
-  height: calc(1200px / 2);
-}
-
-.more-stories {
-  background-color: darkgray;
-  height: calc(1200px / 4);
-}
-
 .right {
-  background-color: darkgreen;
-  height: 520px;
+  background-color: lightgreen;
+  height: 100%;
+}
+
+.culture-p {
+  color: rgba(35, 35, 35, 0.5);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* styling header */
@@ -75,4 +66,117 @@
   margin: 0;
 }
 
+.wrap {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.category-tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  opacity: 0.85;
+}
+
+.left-article-title {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.summary {
+  color: #333;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.related {
+  color: #000;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 20px;
+}
+
+.section-tittle {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.opinion-img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-title {
+  line-height: 0.8em;
+}
+
+.opinion-info {
+  line-height: 1.3rem;
+}
+
+.opinion-article-author {
+  color: #555;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.latest-img {
+  width: 135px;
+  height: 90px;
+}
+
+.culture-travel {
+  background-color: #f4f5f7;
+  height: 100%;
+}
+
+.culture-tittle {
+  color: #272727;
+  font-size: 20px;
+  font-family: Lora, serif;
+  line-height: 0.85rem;
+}
+
+.culture-tag {
+  background-color: #c2d4d7;
+  color: #272727;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.more-stories {
+  background-color: darkgray;
+  height: 100%;
+}
+
 /* media queries */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .latest-img {
+    width: 258px;
+    height: 172px;
+  }
+}
+
+@media (max-width: 767px) {
+  .right {
+    position: relative;
+  }
+
+  .left {
+    position: relative;
+  }
+}
+
+@media (max-width: 991px) {
+  .right {
+    position: static;
+  }
+}
