@@ -8,23 +8,9 @@
 }
 */
 
-
-
 #color-yellow {
   background-color: yellow;
   height: 198px;
-}
-
-.left {
-  height: 100%;
-}
-
-.middle {
-  height: 100%;
-}
-
-.right {
-  height: 100%;
 }
 
 .culture-p {
@@ -189,6 +175,26 @@ img {
   height: 100%;
 }
 
+.sign-up {
+  background-color: #f4f4f4;
+  max-width: 320px;
+}
+
+.btn-sign-up {
+  background-color: #596167;
+}
+
+.preferences {
+  font-size: 13px;
+}
+
+.nw-icon {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 29px;
+  height: 29px;
+  margin-right: 10px;
+}
+
 /* media queries */
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -209,9 +215,7 @@ img {
 }
 
 @media (max-width: 991px) {
-  .right {
-    position: static;
-  }
+
 }
 
 @media (min-width: 992px) {
@@ -228,11 +232,11 @@ img {
   }
 
   .red-border {
-   position: absolute;
-   top: 0;
+    position: absolute;
+    top: 0;
     right: 0;
     width: 78px;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
+  }
 }
-} 
