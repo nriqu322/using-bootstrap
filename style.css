@@ -8,10 +8,7 @@
 }
 */
 
-#color-blue {
-  background-color: blue;
-  height: 100%;
-}
+
 
 #color-yellow {
   background-color: yellow;
@@ -19,17 +16,14 @@
 }
 
 .left {
-  background-color: coral;
   height: 100%;
 }
 
 .middle {
-  background-color: cyan;
   height: 100%;
 }
 
 .right {
-  background-color: lightgreen;
   height: 100%;
 }
 
@@ -51,7 +45,7 @@ header {
 }
 
 .nav-top {
-  background-color: #f34423;
+  background-color: #f72210;
   height: 50px;
 }
 
@@ -71,8 +65,8 @@ header {
   color: #fb9a94;;
 }
 
-.main {
-  height: 100%;
+.nav-ul {
+  position: relative;
 }
 
 .nw-logo {
@@ -81,9 +75,25 @@ header {
 }
 
 .nav-bar {
-  background-color: rgba(204, 204, 228, 0.986);
   height: 56px;
   font-size: 21px;
+}
+
+.search-container {
+  margin-right: 70px;
+}
+
+.search-bar {
+  width: 60px;
+  height: 25px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main {
+  height: 100%;
 }
 
 .row {
@@ -176,7 +186,6 @@ img {
 }
 
 .more-stories {
-  background-color: darkgray;
   height: 100%;
 }
 
@@ -217,4 +226,13 @@ img {
   .nw-logo svg {
     height: 60px;
   }
+
+  .red-border {
+   position: absolute;
+   top: 0;
+    right: 0;
+    width: 78px;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
 } 
