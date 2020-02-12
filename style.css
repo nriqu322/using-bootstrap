@@ -109,6 +109,15 @@ img {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.red-underline {
+  color: #000;
+}
+
+.red-underline:hover {
+  text-decoration: underline #f72210;
+  color: #000;
+}
+
 .summary {
   color: #333;
   font-size: 15px;
@@ -120,6 +129,18 @@ img {
   font-size: 17px;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 20px;
+}
+
+.opinion-title:hover {
+  color: #f72210;
+}
+
+.related a {
+  color: #000;
+}
+
+.related a:hover {
+  color: #f72210;
 }
 
 .section-tittle {
@@ -193,6 +214,20 @@ img {
   width: 29px;
   height: 29px;
   margin-right: 10px;
+}
+
+.magazine,
+.editor-picks {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.under-text a {
+  color: #000;
+  font-size: 18px;
+}
+
+.tittle-two {
+  font-size: 19px;
 }
 
 /* media queries */
