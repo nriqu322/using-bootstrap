@@ -143,7 +143,7 @@ img {
   color: #f72210;
 }
 
-.section-tittle {
+.section-title {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -178,7 +178,7 @@ img {
   height: 100%;
 }
 
-.culture-tittle {
+.culture-title {
   color: #272727;
   font-size: 20px;
   font-family: Lora, serif;
@@ -217,7 +217,15 @@ img {
 }
 
 .magazine,
-.editor-picks {
+.editor-picks,
+.slideshow,
+.sec-us,
+.sec-world,
+.sec-business,
+.sec-tech,
+.sec-culture,
+.sec-sport,
+.subscribe-section {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -226,8 +234,79 @@ img {
   font-size: 18px;
 }
 
-.tittle-two {
+.title-two {
   font-size: 19px;
+}
+
+.slideshow-tag {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) center/contain no-repeat;
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 45px;
+  text-indent: 5px;
+}
+
+.slideshow-title {
+  font-size: 22px;
+}
+
+.section-picks {
+  font-size: 22px;
+}
+
+.section-picks-titles {
+  line-height: 1em;
+  font-size: 22px;
+}
+
+.book-img-container {
+  position: relative;
+  width: 260px;
+  height: 241px;
+  padding-right: 90px;
+}
+
+.book-one,
+.book-two {
+  width: 170px;
+  height: 227px;
+}
+
+.book-two {
+  position: absolute;
+  top: 13px;
+  left: 75px;
+}
+
+.btn-subs {
+  background-color: #f72210;
+}
+
+.subscribe-info h3 {
+  font-size: 20px;
+}
+
+.subscribe-info p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe-info a {
+  font-size: 18px;
+}
+
+.subscribe-left {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
+
+.starting-img {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center/cover no-repeat;
+}
+
+.subscribe-info {
+  padding: 20px;
 }
 
 /* media queries */
@@ -247,10 +326,25 @@ img {
   .left {
     position: relative;
   }
+
+  .starting-img {
+    height: 160px;
+  }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) {
+  .subscribe-info h3 {
+    font-size: 24px;
+  }
 
+  .subscribe-info {
+    padding: 30px;
+  }
+
+  .starting-img {
+    max-width: 191px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
