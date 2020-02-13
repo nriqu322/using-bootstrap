@@ -15,6 +15,14 @@ header {
   max-width: 1310px;
 }
 
+.cur-pointer {
+  cursor: pointer;
+}
+
+.red-set:hover {
+  color: #f72210;
+}
+
 .nav-top {
   background-color: #f72210;
   height: 50px;
@@ -74,6 +82,10 @@ header {
 img {
   width: 100%;
   height: auto;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .category-tag {
@@ -316,6 +328,10 @@ img {
 .edition-item {
   padding: 0 15px;
   font-size: 14px;
+}
+
+.edition-item:hover {
+  color: #000;
 }
 
 /* media queries */
