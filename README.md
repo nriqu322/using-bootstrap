@@ -1,15 +1,22 @@
 # Using Bootstrap
-This is a HTML CSS project: Newsweek main page clone.
+This is a HTML CSS project: [Newsweek](https://newsweek.com) main page clone.
 The goal is to learn how to use Twitter's Bootstrap framework, so the content is styled tryin to use all possible classes from bootstrap.
 
-![screenshot](/Screenshot.png)
+## Desktop screenshot
+![desktop screenshot](/resources/desktop-Screenshot.png)
+
+## Tablet screenshot
+![tablet screenshot](/resources/tablet-Screenshot.png)
+
+## Mobile screenshot
+![mobile screenshot](/resources/phone-Screenshot.png)
 
 # From the Odin Project
 *Link to the [requirements](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap) in the Odin Project*
 
 ## Live Demo
 
-[Live Demo Link](https://nriqu322.github.io/etch-a-sketch/)
+[Live Demo Link](https://raw.githack.com/nriqu322/using-bootstrap/feature-a/index.html)
 
 ## Made with
 * HTML5
@@ -26,8 +33,8 @@ The goal is to learn how to use Twitter's Bootstrap framework, so the content is
 
 👤 **Luis Saavedra**
 
-- Github: [@githubhandle](https://github.com/nriqu322)
-- Twitter: [@twitterhandle](https://twitter.com/nriqu322)
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
 - Linkedin: [Luis Saavedra](https://linkedin.com/in/luis-saavedra-sanchez/)
 
 ## Contributing
