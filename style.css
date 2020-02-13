@@ -78,10 +78,6 @@ header {
   font-weight: 400;
 }
 
-.main {
-  height: 100%;
-}
-
 .row {
   margin: 0;
 }
@@ -318,6 +314,12 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  .nav-top-right {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 767px) {
   .right {
     position: relative;
@@ -345,6 +347,19 @@ img {
     max-width: 191px;
     width: 100%;
   }
+
+  .top-magazine-one {
+    padding-right: 18px;
+  }
+
+  .top-magazine-two {
+    padding-left: 11px;
+    padding-right: 10px;
+  }
+
+  .top-magazine-three {
+    padding-left: 19px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -367,5 +382,10 @@ img {
     width: 78px;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
+  }
+
+  .subscribe-left,
+  .starting-container {
+    height: 301px;
   }
 }
