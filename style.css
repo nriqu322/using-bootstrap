@@ -10,6 +10,10 @@ body {
   background-color: #f4f5f6;
 }
 
+main {
+  margin-top: 150px;
+}
+
 header {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -80,6 +84,11 @@ img {
   height: auto;
 }
 
+/*.left {
+  position: sticky;
+  top: 0;
+}
+*/
 .category-tag {
   position: absolute;
   bottom: 0;
@@ -160,7 +169,6 @@ img {
 
 .culture-travel {
   background-color: #f4f5f7;
-  height: 100%;
 }
 
 .culture-title {
@@ -175,10 +183,6 @@ img {
   color: #272727;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.more-stories {
-  height: 100%;
 }
 
 .sign-up {
@@ -295,10 +299,12 @@ img {
 }
 
 .footer-nw-logo {
+  fill: #f72210;
+}
+
+.brand svg {
   width: 236px;
   height: 36px;
-  fill: #f72210;
-  margin-bottom: 30px;
 }
 
 .social-icon {
@@ -322,6 +328,12 @@ img {
 
 /* media queries */
 
+@media (max-width: 991px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   .latest-img {
     width: 258px;
@@ -336,13 +348,13 @@ img {
 }
 
 @media (max-width: 767px) {
-  .right {
+  /*.right {
     position: relative;
   }
 
   .left {
     position: relative;
-  }
+  }*/
 
   .starting-img {
     height: 160px;
