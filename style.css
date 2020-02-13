@@ -305,6 +305,12 @@ img {
   padding: 20px;
 }
 
+.footer-nw-logo {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+
 /* media queries */
 
 @media (min-width: 481px) and (max-width: 767px) {
