@@ -16,7 +16,7 @@ The goal is to learn how to use Twitter's Bootstrap framework, so the content is
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/nriqu322/using-bootstrap/feature-a/index.html)
+[Live Demo Link](https://nriqu322.github.io/using-bootstrap/)
 
 ## Made with
 * HTML5
