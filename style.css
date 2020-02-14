@@ -210,6 +210,11 @@ img:hover {
   margin-right: 10px;
 }
 
+.slideshow .nw-icon {
+  border: 1px solid #fff;
+  box-shadow: 3px 3px #f72210;
+}
+
 .magazine,
 .editor-picks,
 .slideshow,
