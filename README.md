@@ -1,74 +1,47 @@
-# Project Name
+# Using Bootstrap
+This is a HTML CSS project: [Newsweek](https://newsweek.com) main page clone.
+The goal is to learn how to use Twitter's Bootstrap framework, so the content is styled tryin to use all possible classes from bootstrap.
 
-> One paragraph statement about the project.
+## Desktop screenshot
+![desktop screenshot](/resources/desktop-Screenshot.png)
 
-![screenshot](./app_screenshot.png)
+## Tablet screenshot
+![tablet screenshot](/resources/tablet-Screenshot.png)
 
-Additional description about the project and its features.
+## Mobile screenshot
+![mobile screenshot](/resources/phone-Screenshot.png)
 
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
+# From the Odin Project
+*Link to the [requirements](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap) in the Odin Project*
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/nriqu322/using-bootstrap/feature-a/index.html)
 
+## Made with
+* HTML5
+* CSS3
 
-## Getting Started
+## Built With
+* Bootstrap 4
+* Grid for layout
+* Classes for responsive design
+* Position sticky for aside sections
+* Position fixed for the navbar
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Author [![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)](https://linkedin.com/in/luis-saavedra-sanchez/)
 
+👤 **Luis Saavedra**
 
-To get a local copy up and running follow these simple example steps.
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
+- Linkedin: [Luis Saavedra](https://linkedin.com/in/luis-saavedra-sanchez/)
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check [here](https://github.com/nriqu322/using-bootstrap/issues) for issues.
 
 ## Show your support
-
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
